@@ -1,0 +1,9 @@
+<p>
+  my-event-binding works!
+</p>
+
+<input (keyup)="recordAllTheKeyStrokes($event)">
+<input #myInput (keyup)="onKey(myInput.value)">
+
+<!-- <input #myInput (keyup)="0">
+<p> {{ myInput.value }} </p> -->
